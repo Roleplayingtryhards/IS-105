@@ -44,7 +44,7 @@ def revert(rom_num):
     rom_num = rom_num.replace("DD", "M")
     
     return rom_num
-    
+#Konsoll    
 rom1 = raw_input("Skriv inn første Romertall:")
 rom2 = raw_input("Skriv inn andre Romertall:")
 

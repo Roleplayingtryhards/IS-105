@@ -14,7 +14,7 @@ def roman_to_int(romIn):
             runBool = False
     print runBool
     if runBool == True:
-            for char in romIn: #Bokstavenes tall-verdi -> value_list.
+            for char in romIn: #Bokstavenes tall-verdi -> value_list. elif = else/if
                     if char == 'M':
                         value_list.append(1000)
                     elif char == 'D':
